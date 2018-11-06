@@ -1,0 +1,102 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Anton', sans-serif;
+}
+
+.logo {
+  margin-left: 15%;
+}
+
+.backgroundCol {
+
+}
+
+.bgc1 {
+  background-color: #0b5351;
+}
+
+.bgc2 {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)),
+    url("https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2011/06/spiders-webs-2.jpg?resize=717%2C478&ssl=1");
+
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 900px 900px;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.bgc2Text {
+  text-align: center;
+  color: #fff;
+}
+
+.bgc2 h3 {
+  margin-top: 30%;
+  letter-spacing: 5px;
+}
+
+.bgc2 p {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bgc2 a {
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.bgc3 {
+  background-color: #0b5351;
+}
+
+.bgc4 {
+  background-color: #0b5351;
+}
+
+.bgc5 {
+  background-color: #0b5351;
+}
+
+.rowH {
+	height: 500px;
+}
+
+.crawlHeader {
+	font-variant: small-caps;
+	margin-left: 2px;
+}
+
+.headerText {
+	text-align: center;
+	font-size: 72px;
+	letter-spacing: 8px;
+	margin-top: 5px;
+}
+
+.rowH1 {
+	margin-top: 60px;
+	height: 400px;
+}
+
+.backgroundCol1 {
+	height: 260px;
+	margin-top: 50px;
+}
+
+#innerCol-1 {
+  background-color: #092327;
+}
+
+#innerCol-2 {
+  background-color: #4e8098;
+}
+
+#innerCol-3 {
+  background-color: #00a9a5;
+}
+
+#innerCol-4 {
+  background-color: #90c2e7;
+}
