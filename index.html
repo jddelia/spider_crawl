@@ -14,7 +14,15 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Open+Sans:300,400" rel="stylesheet">
 
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Animate On Scroll CSS
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    -->
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
 
     <title>SpiderCrawl</title>
   </head>
@@ -47,6 +55,18 @@
     <header>
       <img class="logo" width="800" height="250" src="assets/images/spidercrawllogo2.png" alt="">
     </header>
+
+    <div id="particles-js" class="jumbotron text-center jumbo" style="color: #fff;">
+      <div class="particleJumbo">
+        <h1 class="display-4" style="letter-spacing: 3px;">SPIDER CRAWL</h1>
+        <p class="lead">Embrace The Web</p>
+        <hr class="my-4">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <a class="btn btn-outline-info btn-lg" href="#" role="button">Learn more</a>
+      </div>
+    </div>
 
     <div class="row mt-5 rowH">
   	  <div id="particles-js" class="col-4 bgc1">
@@ -96,7 +116,7 @@
   			</div>
   		</div>
   		<div class="col-4 border bgc3">
-        <div class="iconsFA">
+        <div class=" headline iconsFA">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x icon-background"></i>
             <i class="fa fa-phone fa-stack-1x"></i>
@@ -140,6 +160,15 @@
   		<div class="col-4 bgc5"></div>
   	</div>
 
+    <div class="headline">
+      <h1>TEST</h1>
+    </div>
+
+    <!-- Scroll Reveal -->
+    <script>
+      ScrollReveal().reveal('.headline');
+    </script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -149,5 +178,11 @@
     <!-- Particles.JS -->
     <script type="text/javascript" src="assets/js/particles.js"></script>
     <script type="text/javascript" src="assets/js/app.js"></script>
+
+    <!-- Animate On Scroll JS
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> -->
   </body>
 </html>

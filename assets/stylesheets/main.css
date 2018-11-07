@@ -137,6 +137,16 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0px 0px 2px #131415;
 }
 
+.particleJumbo {
+  position: absolute;
+	top: 100%;
+  right: 50%;
+	transform: translate(50%,-50%);
+	max-width: 90%;
+	padding: 2em 3em;
+	text-shadow: 0px 0px 2px #131415;
+}
+
 .iconsFA {
   margin-left: 30px;
   margin-top: 10%;
@@ -144,4 +154,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .icon-background {
     color: #fff;
+}
+
+.jumbo {
+	background-color: #092327;
+}
+
+.jumboP {
+	text-align: right;
+}
+
+.btn-outline-info {
+	border-color: #fff;
+	color: silver;
+}
+
+.btn-outline-info:hover {
+	background-color: gray;
+	color: #fff;
+	border-color: gray;
 }
